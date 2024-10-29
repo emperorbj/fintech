@@ -18,7 +18,7 @@ const Featured = () => {
                         <h1 className="font-integral mt-2 text-2xl md:text-3xl">
                             ALL THE FEATURES<br/> IN ONE APP
                         </h1>
-                        <ul>
+                        <ul className="px-10 md:px-0">
                             <li className="list-disc text-[16px] text-[#676666]">Get 3% cash back on everyday purchases 2% on<br/>everything else</li>
                             <li className="list-disc text-[16px] text-[#676666]">Extra Spending Power when you have Rewards Checking<br/> through Upgrade</li>
                         </ul>

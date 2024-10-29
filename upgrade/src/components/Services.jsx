@@ -25,7 +25,7 @@ const Services = () => {
                 flex-col-reverse items-center justify-center pl-8 md:pl-32 gap-40 bg-[#EAECF0] md:flex-row">
                     <div className="relative flex">
                         <img src="/mock1.png" alt="" />
-                        <img className="absolute left-[160px] md:left-[222px] md:top-10" src="/mock2.png" alt="" />
+                        <img className="absolute left-[140px] md:left-[222px] -top-[100px] md:top-10" src="/mock2.png" alt="" />
                     </div>
                     {/* right-service-div */}
                     <div className="flex items-center justify-center">

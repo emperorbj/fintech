@@ -29,13 +29,14 @@ const AboutUsInfo = [
 ]
 const ScrollingArea = () => {
     return (
-        <ScrollArea className='w-full md:w-[571px] mt-10 h-[400px] rounded-md'>
+        <ScrollArea className='w-full  md:w-[571px] mt-10 h-[400px] rounded-md'>
             <div className="flex flex-col gap-3">
                 {
                     AboutUsInfo.map((about,index)=>(
                         <div
                         style={{backgroundColor:about.bgColor,borderBlockColor:about.borderColor}} 
-                        className="rounded-lg ml-4 md:ml-6 border w-[400px] md:w-[500px] h-[95px] md:h-[134px] py-3 px-4" key={index}>
+                        className="rounded-lg ml-4 md:ml-6 border w-[350px] md:w-[500px] h-[140px] 
+                        md:h-[134px] py-3 px-8 md:px-4" key={index}>
                             <h2 className="font-bold text-[20px]">{about.title}</h2>
                             <p className="text-[16px] text-[#6B6969]">{about.info}</p>
                         </div>
