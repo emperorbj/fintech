@@ -7,7 +7,7 @@ import {
 
 const ServiceCard = () => {
     return (
-        <div className="my-6 md:my-8 mx-14 md:mx-[270px] gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+        <div className="my-6 md:my-8 mx-8 md:mx-[270px] gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
             {/* first card */}
             <Card className='bg-[#E2FF54] p-10 md:p-0'>
                 <CardHeader>
@@ -26,7 +26,7 @@ const ServiceCard = () => {
             </Card>
             {/* 2nd card */}
             <Card className='relative'>
-                <img className="-z-10 mt-6 ml-[129px] md:ml-[69px]" src="/slantyphone.png" alt="" />
+                <img className="-z-10 mt-6 ml-[55px] md:ml-[69px]" src="/slantyphone.png" alt="" />
                 <CardHeader className='absolute top-5 z-10'>
                     <CardTitle className='flex flex-col gap-3'>
                         <div className="h-9 w-9 rounded-full flex items-center justify-center bg-[#00B512]">
@@ -39,7 +39,7 @@ const ServiceCard = () => {
                 </CardHeader>
             </Card>
             {/* 3rd card */}
-            <Card className='bg-teal-600 p-28 md:p-0 flex items-center justify-center'>
+            <Card className='bg-teal-600 p-10 md:p-0 flex items-center justify-center'>
                 <CardHeader>
                     <CardTitle>
                         <h2 className="text-[24px] text-slate-100">

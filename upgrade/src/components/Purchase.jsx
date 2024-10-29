@@ -21,7 +21,7 @@ const Purchase = () => {
                                 ARE YOU READY TO<br />START?
                             </h2>
                             <p>
-                                Personalize your settings,show your progress archive your<br />
+                                Personalize your settings,show your progress archive your
                                 highlights and notes automatically.Glose is the ultimate reading
                             </p>
                             <div className="flex relative">

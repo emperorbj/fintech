@@ -22,7 +22,7 @@ const Testimonials = () => {
                 </div>
             </div>
             {/* TESTIMONIAL CARDS */}
-            <div className="my-6 md:my-8 mx-14 md:mx-[270px] gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+            <div className="my-6 md:my-8 mx-4 md:mx-[270px] gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
                 {/* first card */}
                 <Card className='bg-white p-5 md:p-0'>
                     <CardHeader>

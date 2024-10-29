@@ -85,7 +85,7 @@ const Services = () => {
                         {/* first card phone screen mock up */}
                         <div className="relative">
                             <img className="" src="/tom2.png" alt="" />
-                            <img className="absolute top-16 left-[150px] md:left-[200px]" src="/tom3.png" alt="" />
+                            <img className="absolute top-16 left-[120px] md:left-[200px]" src="/tom3.png" alt="" />
                         </div>
                     </div>
                 </div>
