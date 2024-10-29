@@ -10,7 +10,7 @@ const TrustPage = () => {
             }}>
             <div className="mx-4 md:mx-8 flex flex-col-reverse md:flex-row items-center gap-28">
                 {/* left div */}
-                <div className="-mt-6 md:mt-0 p-10 md:p-0">
+                <div className="-mt-6 md:mt-0 p-14 md:p-0">
                     <img src="/phonecard.png" alt="" />
                 </div>
                 {/* right div */}

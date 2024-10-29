@@ -24,7 +24,7 @@ const Testimonials = () => {
             {/* TESTIMONIAL CARDS */}
             <div className="my-6 md:my-8 mx-14 md:mx-[270px] gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
                 {/* first card */}
-                <Card className='bg-white p-10 md:p-0'>
+                <Card className='bg-white p-5 md:p-0'>
                     <CardHeader>
                         <CardTitle className='flex gap-2'>
                             <img src="/qoute.png" alt="" />
@@ -53,7 +53,7 @@ const Testimonials = () => {
                     </CardFooter>
                 </Card>
                 {/* 2nd card */}
-                <Card className='bg-teal-950 p-10 md:p-0'>
+                <Card className='bg-teal-950 p-5 md:p-0'>
                     <CardHeader>
                         <CardTitle className='flex gap-2'>
                             <img src="/qoute.png" alt="" />
@@ -83,7 +83,7 @@ const Testimonials = () => {
                 </Card>
 
                 {/* 3rd card */}
-                <Card className='bg-white p-10 md:p-0'>
+                <Card className='bg-white p-5 md:p-0'>
                     <CardHeader>
                         <CardTitle className='flex gap-2'>
                             <img src="/qoute.png" alt="" />

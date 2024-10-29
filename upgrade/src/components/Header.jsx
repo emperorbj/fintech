@@ -43,7 +43,7 @@ const Header = () => {
                         </div>
                     </div>
                     {/*Right div phone mock up  */}
-                    <div className="w-full md:w-[40%] h-[360px] 
+                    <div className="w-full mb-4 md:mb-0 md:w-[40%] h-[260px] 
                     flex items-center justify-center md:h-[550px] mt-4">
                         <img className="object-cover h-full" src="/phone1.png" alt="header-phone-mockup" />
                     </div>

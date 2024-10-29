@@ -11,7 +11,7 @@ const Services = () => {
                         <div className="flex mt-4 md:mt-0 w-fit h-8 bg-[#EAECF0] gap-3 items-center justify-center 
                         px-3 py-4 rounded-full">
                             <img className="w-[14px] h-[14px]" src="/fire.png" alt="fire-logo" />
-                            <p className="text-[14px]">FEATURED</p>
+                            <p className="text-[14px]">SERVICES</p>
                         </div>
                         <h1 className="font-integral mt-2 text-2xl md:text-3xl">
                             CAN HELP YOU ACHIEVE<br /> FINANCIAL SUCCESS
@@ -85,7 +85,7 @@ const Services = () => {
                         {/* first card phone screen mock up */}
                         <div className="relative">
                             <img className="" src="/tom2.png" alt="" />
-                            <img className="absolute top-16 left-[200px]" src="/tom3.png" alt="" />
+                            <img className="absolute top-16 left-[150px] md:left-[200px]" src="/tom3.png" alt="" />
                         </div>
                     </div>
                 </div>
