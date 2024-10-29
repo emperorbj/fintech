@@ -18,7 +18,7 @@ const Testimonials = () => {
                     <p className="text-[14px] font-bold">TESTIMONIAL</p>
                 </div>
                 <div>
-                    <h1 className="font-integral text-2xl md:text-4xl">GET TO KNOW OUR CLIENTS</h1>
+                    <h1 className="font-integral text-center text-2xl md:text-4xl">GET TO KNOW OUR CLIENTS</h1>
                 </div>
             </div>
             {/* TESTIMONIAL CARDS */}
